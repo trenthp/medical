@@ -1,0 +1,57 @@
+@import "_normalize";
+@import "_foundation";
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic,700,400,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,400);
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #5a5a5a;
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.parfait2,
+.parfait3,
+.parfait4 {
+  padding: 75px 0;
+}
+
+.parfait3 {
+  background: #58585B;
+}
+
+.parfait4 {
+  background: #99CA3D;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+
+
+
+
+/*
+ * Header
+ */
+.parfait1 {
+	background-image: url('../img/spokane.jpg');
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	padding-bottom: 20%;
+}
+
+header img {
+	height: 80px;
+	float: left;
+	margin-top: 5%;
+}
