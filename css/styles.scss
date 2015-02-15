@@ -10,6 +10,11 @@ body {
   font-family: 'Gentium Book Basic', serif;
 }
 
+.parfait1 {
+	background: #58585B;
+	padding: 5%;
+}
+
 .parfait2,
 .parfait3,
 .parfait4 {
@@ -37,12 +42,38 @@ h6 {
 
 
 
+/*
+ * Nav
+ */
+.contain-to-grid,
+.top-bar {
+	background: #58585B;
+	padding: 10px;
+}
+
+[data-magellan-expedition], [data-magellan-expedition-clone] {
+	background: none;
+	padding: 0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #58585B;
+	border-bottom: 2px solid #58585B;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: #58585B;
+	border-bottom: 2px solid #99CA3D;
+}
+
 
 /*
  * Header
  */
-.parfait1 {
-	background-image: url('../img/spokane.jpg');
+
+
+header {
+	background-image: url('http://placehold.it/400x300&text=[img]');
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
