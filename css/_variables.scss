@@ -1,9 +1,13 @@
 // FONT STACKS
-$font-stack-primary: 'Roboto', sans-serif;
-$font-stack-secondary: font-family: 'Roboto Condensed', sans-serif;
-$font-stack-h: 'Roboto Slab', serif;
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic,700,400,700italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,400);
+$font-stack-primary: 'Open Sans', sans-serif;
+$font-stack-secondary: 'Gentium Book Basic', serif;
 
 // COLORS
-$color-primary: #99CA3D;
-$color-secondary: #58585B;
+// gray-blue-purple
+$color-primary: #31313b;
+// green
+$color-secondary: #99CA3D;
+// white?
 $color-tertiary: #fff;

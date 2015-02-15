@@ -7090,22 +7090,28 @@ th.hide-for-touch {
 /* GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  color: #5a5a5a;
-  font-family: 'Gentium Book Basic', serif; }
-
-.parfait1 {
-  background: #58585B;
-  padding: 5%; }
+  color: #31313b;
+  font-family: "Gentium Book Basic", serif; }
 
 .parfait2,
 .parfait3,
 .parfait4 {
   padding: 75px 0; }
 
+.parfait1 {
+  background: #31313b;
+  padding: 2% 5% 5%; }
+
+.parfait2 {
+  background: #99CA3D; }
+
 .parfait3 {
-  background: #58585B; }
+  background: #fff; }
 
 .parfait4 {
+  background: #31313b; }
+
+.parfait5 {
   background: #99CA3D; }
 
 h1,
@@ -7114,34 +7120,51 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #31313b; }
+
+.small-centered {
+  text-align: center; }
 
 /*
  * Nav
  */
 .contain-to-grid,
 .top-bar {
-  background: #58585B;
-  padding: 10px; }
+  background: #31313b;
+  padding: 10px 0;
+  letter-spacing: 0.0625em; }
+
+.top-bar.expanded .title-area {
+  background: #31313b; }
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
   background: none;
   padding: 0; }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-  background: #58585B;
-  border-bottom: 2px solid #58585B; }
+  background: #31313b;
+  border-bottom: 2px solid #31313b;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+  text-transform: uppercase; }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: #58585B;
+  background: #31313b;
   border-bottom: 2px solid #99CA3D; }
+  .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+    background: #31313b; }
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+  background-color: #99CA3D;
+  background: #99CA3D; }
 
 /*
  * Header
  */
 header {
-  background-image: url("http://placehold.it/400x300&text=[img]");
+  background-image: url("../img/spokane.jpg");
   background-position: 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;

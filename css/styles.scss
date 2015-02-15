@@ -1,18 +1,13 @@
 @import "_normalize";
 @import "_foundation";
-@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400italic,700,400,700italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800,400);
+@import "_variables";
+
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  color: #5a5a5a;
-  font-family: 'Gentium Book Basic', serif;
-}
-
-.parfait1 {
-	background: #58585B;
-	padding: 5%;
+  color: $color-primary;
+  font-family: $font-stack-secondary;
 }
 
 .parfait2,
@@ -21,12 +16,25 @@ body {
   padding: 75px 0;
 }
 
+.parfait1 {
+	background: $color-primary;
+	padding: 2% 5% 5%;
+}
+
+.parfait2 {
+	background: $color-secondary;
+}
+
 .parfait3 {
-  background: #58585B;
+	background: $color-tertiary;
 }
 
 .parfait4 {
-  background: #99CA3D;
+  background: $color-primary;
+}
+
+.parfait5 {
+  background: $color-secondary;
 }
 
 h1,
@@ -35,10 +43,14 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: $font-stack-primary;
 	font-weight: 800;
+	color: $color-primary;
 }
 
+.small-centered {
+	text-align: center;
+}
 
 
 
@@ -47,8 +59,13 @@ h6 {
  */
 .contain-to-grid,
 .top-bar {
-	background: #58585B;
-	padding: 10px;
+	background: $color-primary;
+	padding: 10px 0;
+	letter-spacing: 0.0625em;
+}
+
+.top-bar.expanded .title-area {
+	background: $color-primary;
 }
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
@@ -57,14 +74,27 @@ h6 {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-	background: #58585B;
-	border-bottom: 2px solid #58585B;
+	background: $color-primary;
+	border-bottom: 2px solid $color-primary;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.15rem;
+	text-transform: uppercase;
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-	background: #58585B;
+	background: $color-primary;
 	border-bottom: 2px solid #99CA3D;
+
+	&:hover {
+		background: $color-primary;
+	}
 }
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+	background-color: $color-secondary;
+	background: $color-secondary;
+}
+
 
 
 /*
@@ -73,7 +103,7 @@ h6 {
 
 
 header {
-	background-image: url('http://placehold.it/400x300&text=[img]');
+	background-image: url('../img/spokane.jpg');
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
