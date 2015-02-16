@@ -7109,7 +7109,12 @@ body {
   background: #fff; }
 
 .parfait4 {
-  background: #31313b; }
+  background: #31313b;
+  color: #fff; }
+  .parfait4 h1 {
+    color: #fff; }
+  .parfait4 h4 {
+    color: #fff; }
 
 .parfait5 {
   background: #99CA3D; }
@@ -7175,5 +7180,21 @@ header img {
   height: 80px;
   float: left;
   margin-top: 5%; }
+
+/*
+ * Fees
+ */
+.pricing-table .title {
+  background: #31313b; }
+
+/*
+ * Fees
+ */
+.parfait4 h4 {
+  border-bottom: 4px solid #fff;
+  padding-bottom: 5px; }
+
+.faq div {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=styles.css.map */

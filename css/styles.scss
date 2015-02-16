@@ -31,6 +31,15 @@ body {
 
 .parfait4 {
   background: $color-primary;
+  color: $color-tertiary;
+
+  h1 {
+  	color: $color-tertiary;
+  }
+
+  h4 {
+  	color: $color-tertiary;
+  }
 }
 
 .parfait5 {
@@ -116,3 +125,43 @@ header img {
 	float: left;
 	margin-top: 5%;
 }
+
+
+
+/*
+ * Fees
+ */
+.pricing-table .title {
+	background: $color-primary;
+}
+
+
+
+
+/*
+ * Fees
+ */
+.parfait4 {
+	h4 {
+		border-bottom: 4px solid #fff;
+		padding-bottom: 5px;
+	}
+}
+
+.faq {
+	div {
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
