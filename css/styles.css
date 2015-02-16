@@ -7189,12 +7189,28 @@ header {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  padding-bottom: 20%; }
+  padding-bottom: 30%; }
 
 header img {
   height: 80px;
   float: left;
   margin-top: 5%; }
+
+.panel {
+  border-style: none;
+  border-width: none;
+  border-color: none;
+  background: none; }
+  .panel p {
+    color: #fff; }
+
+/*
+ * Benefits
+ */
+[class*="block-grid-"] {
+  display: block;
+  padding: 0;
+  margin: 0 0.9375rem; }
 
 /*
  * Fees
@@ -7203,7 +7219,7 @@ header img {
   background: #31313b; }
 
 /*
- * Fees
+ * FAQ
  */
 .parfait4 h4 {
   border-bottom: 4px solid #fff;

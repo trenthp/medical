@@ -122,18 +122,19 @@ nav h1 a {
 }
 */
 
+
+
+
 /*
  * Header
  */
-
-
 header {
 	background-image: url('../img/spokane.jpg');
 	background-position: 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding-bottom: 20%;
+	padding-bottom: 30%;
 }
 
 header img {
@@ -141,6 +142,29 @@ header img {
 	float: left;
 	margin-top: 5%;
 }
+
+.panel {
+	border-style: none;
+	border-width: none;
+	border-color: none;
+	background: none;
+
+	p {
+		color: #fff;	
+	}
+	
+}
+
+
+/*
+ * Benefits
+ */
+[class*="block-grid-"] {
+display: block;
+padding: 0;
+margin: 0 0.9375rem;
+}
+
 
 
 
@@ -155,7 +179,7 @@ header img {
 
 
 /*
- * Fees
+ * FAQ
  */
 .parfait4 {
 	h4 {
