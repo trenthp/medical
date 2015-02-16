@@ -7165,6 +7165,21 @@ h6 {
   background-color: #99CA3D;
   background: #99CA3D; }
 
+.top-bar .toggle-topbar a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+nav h1 a img {
+  height: 40px; }
+
+/*
+nav h1 a {
+	width: 300px; 
+	height: 75px;
+	background: url(../img/logoElongated.svg);
+	text-indent: -9999px;
+}
+*/
 /*
  * Header
  */
