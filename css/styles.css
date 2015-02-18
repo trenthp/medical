@@ -7090,7 +7090,7 @@ th.hide-for-touch {
 /* GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  color: #31313b;
+  color: #fff;
   font-family: "Gentium Book Basic", serif; }
 
 .parfait2,
@@ -7098,26 +7098,26 @@ body {
 .parfait4 {
   padding: 75px 0; }
 
+/* header */
 .parfait1 {
   background: #31313b;
   padding: 2% 5% 5%; }
 
+/* benefits */
 .parfait2 {
-  background: #99CA3D; }
+  background: #58585b; }
 
+/* fees */
 .parfait3 {
   background: #fff; }
 
+/* FAQ */
 .parfait4 {
-  background: #31313b;
-  color: #fff; }
-  .parfait4 h1 {
-    color: #fff; }
-  .parfait4 h4 {
-    color: #fff; }
+  background: #31313b; }
 
+/* footer */
 .parfait5 {
-  background: #99CA3D; }
+  background: #58585b; }
 
 h1,
 h2,
@@ -7127,7 +7127,7 @@ h5,
 h6 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  color: #31313b; }
+  color: #99CA3D; }
 
 .small-centered {
   text-align: center; }
@@ -7162,15 +7162,22 @@ h6 {
     background: #31313b; }
 
 .top-bar-section ul li:hover:not(.has-form) > a {
-  background-color: #99CA3D;
-  background: #99CA3D; }
+  background-color: #58585b;
+  background: #58585b; }
 
 .top-bar .toggle-topbar a {
   font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
-nav h1 a img {
-  height: 40px; }
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background-color: #31313b;
+  background: #31313b;
+  color: #99CA3D; }
+
+nav h1 a {
+  border-bottom: 2px solid #99CA3D; }
+  nav h1 a img {
+    height: 40px; }
 
 /*
 nav h1 a {
@@ -7217,15 +7224,38 @@ header img {
  */
 .pricing-table .title {
   background: #31313b; }
+.pricing-table .price {
+  background-color: #F6F6F6;
+  padding: 0.9375rem 1.25rem;
+  text-align: left;
+  font-family: "Gentium Book Basic", serif; }
+.pricing-table .description {
+  text-align: left; }
+.pricing-table .bullet-item {
+  text-align: left; }
+
+.parfait3 h4 {
+  color: #31313b;
+  text-align: left; }
 
 /*
  * FAQ
  */
 .parfait4 h4 {
   border-bottom: 4px solid #fff;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  color: #fff; }
 
 .faq div {
   margin-bottom: 20px; }
+
+/* MEDIA QUERIES
+-------------------------------------------------- */
+/*
+ * Small Screen
+ */
+@media screen and (max-width: 720px) {
+  nav h1 a {
+    border-bottom: none; } }
 
 /*# sourceMappingURL=styles.css.map */

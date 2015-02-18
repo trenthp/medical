@@ -6,7 +6,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  color: $color-primary;
+  color: $color-tertiary;
   font-family: $font-stack-secondary;
 }
 
@@ -16,32 +16,28 @@ body {
   padding: 75px 0;
 }
 
+/* header */
 .parfait1 {
 	background: $color-primary;
 	padding: 2% 5% 5%;
 }
 
+/* benefits */
 .parfait2 {
 	background: $color-secondary;
 }
 
+/* fees */
 .parfait3 {
 	background: $color-tertiary;
 }
 
+/* FAQ */
 .parfait4 {
   background: $color-primary;
-  color: $color-tertiary;
-
-  h1 {
-  	color: $color-tertiary;
-  }
-
-  h4 {
-  	color: $color-tertiary;
-  }
 }
 
+/* footer */
 .parfait5 {
   background: $color-secondary;
 }
@@ -54,7 +50,7 @@ h5,
 h6 {
 	font-family: $font-stack-primary;
 	font-weight: 800;
-	color: $color-primary;
+	color: $color-highlight;
 }
 
 .small-centered {
@@ -109,8 +105,18 @@ h6 {
 	font-weight: 400;
 }	
 
-nav h1 a img {
-	height: 40px;
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: $color-primary;
+	background: $color-primary;
+	color: $color-highlight;
+}
+
+nav h1 a {
+	border-bottom: 2px solid $color-highlight;
+
+	img {
+		height: 40px;
+	}
 }
 
 /*
@@ -160,9 +166,9 @@ header img {
  * Benefits
  */
 [class*="block-grid-"] {
-display: block;
-padding: 0;
-margin: 0 0.9375rem;
+	display: block;
+	padding: 0;
+	margin: 0 0.9375rem;
 }
 
 
@@ -171,10 +177,31 @@ margin: 0 0.9375rem;
 /*
  * Fees
  */
-.pricing-table .title {
-	background: $color-primary;
+.pricing-table {
+	.title {
+		background: $color-primary;
+	}
+
+	.price {
+		background-color: #F6F6F6;
+		padding: 0.9375rem 1.25rem;
+		text-align: left;
+		font-family: $font-stack-secondary;
+	}
+
+	.description {
+		text-align: left;
+	}
+
+	.bullet-item {
+		text-align: left;
+	}
 }
 
+.parfait3 h4 {
+	color: $color-primary;
+	text-align: left;
+}
 
 
 
@@ -185,6 +212,7 @@ margin: 0 0.9375rem;
 	h4 {
 		border-bottom: 4px solid #fff;
 		padding-bottom: 5px;
+		color: $color-tertiary;
 	}
 }
 
@@ -193,6 +221,32 @@ margin: 0 0.9375rem;
 		margin-bottom: 20px;
 	}
 }
+
+
+
+
+/* MEDIA QUERIES
+-------------------------------------------------- */
+
+/*
+ * Small Screen
+ */
+@media screen and (max-width: 720px) {
+
+	nav h1 a {
+	border-bottom: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
