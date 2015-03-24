@@ -20,6 +20,10 @@ body {
 .parfait1 {
 	background: $color-primary;
 	padding: 2% 5% 5%;
+
+	h5 {
+		color: $color-tertiary;
+	}
 }
 
 /* benefits */
@@ -41,7 +45,6 @@ body {
 .parfait5 {
   background: $color-secondary;
   padding: 2% 0 5%;
-  height: 100%;
 }
 
 h1,
@@ -57,7 +60,6 @@ h6 {
 
 h5 {
 	font-weight: 400;
-	color: $color-tertiary;
 }
 
 a {
@@ -136,20 +138,6 @@ nav h1 a {
 /*
  * Header
  */
-header {
-	background-image: url('../img/spokane.jpg');
-	background-position: 50% 50%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	padding-bottom: 30%;
-}
-
-header img {
-	height: 80px;
-	float: left;
-	margin-top: 5%;
-}
 
 .panel {
 	border-style: none;
@@ -157,11 +145,20 @@ header img {
 	border-color: none;
 	background: none;
 
-	p {
-		color: #fff;	
+	h4 {
+		color: $color-tertiary;
 	}
-	
+
 }
+
+.orbit-slide-number {
+	visibility: hidden;
+}
+
+.orbit-container .orbit-slides-container img {
+	margin: auto;
+}
+
 
 
 /*
@@ -220,6 +217,10 @@ header img {
 		border-bottom: 4px solid #fff;
 		padding-bottom: 5px;
 		color: $color-tertiary;
+	}
+
+	[class*="block-grid-"] > li {
+		padding: 0 1.25rem 1.25rem;
 	}
 }
 

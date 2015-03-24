@@ -7102,6 +7102,8 @@ body {
 .parfait1 {
   background: #31313b;
   padding: 2% 5% 5%; }
+  .parfait1 h5 {
+    color: #fff; }
 
 /* benefits */
 .parfait2 {
@@ -7118,8 +7120,7 @@ body {
 /* footer */
 .parfait5 {
   background: #58585b;
-  padding: 2% 0 5%;
-  height: 100%; }
+  padding: 2% 0 5%; }
 
 h1,
 h2,
@@ -7132,8 +7133,7 @@ h6 {
   color: #99CA3D; }
 
 h5 {
-  font-weight: 400;
-  color: #fff; }
+  font-weight: 400; }
 
 a {
   transition: color .15s ease-in; }
@@ -7191,26 +7191,19 @@ nav h1 a {
 /*
  * Header
  */
-header {
-  background-image: url("../img/spokane.jpg");
-  background-position: 50% 50%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  padding-bottom: 30%; }
-
-header img {
-  height: 80px;
-  float: left;
-  margin-top: 5%; }
-
 .panel {
   border-style: none;
   border-width: none;
   border-color: none;
   background: none; }
-  .panel p {
+  .panel h4 {
     color: #fff; }
+
+.orbit-slide-number {
+  visibility: hidden; }
+
+.orbit-container .orbit-slides-container img {
+  margin: auto; }
 
 /*
  * Benefits
@@ -7251,6 +7244,8 @@ header img {
   border-bottom: 4px solid #fff;
   padding-bottom: 5px;
   color: #fff; }
+.parfait4 [class*="block-grid-"] > li {
+  padding: 0 1.25rem 1.25rem; }
 
 .faq div {
   margin-bottom: 20px; }
