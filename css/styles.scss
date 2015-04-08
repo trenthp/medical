@@ -267,13 +267,22 @@ footer {
 @media screen and (max-width: 720px) {
 
 	nav h1 a {
-	border-bottom: none;
+		border-bottom: none;
 	}
 
 }
 
 
+/*
+ * Smaller Screen
+ */
+@media screen and (max-width: 450px) {
 
+	footer h2 a {
+		font-size: 1.1rem;
+	}
+
+}
 
 
 

@@ -2063,8 +2063,8 @@ label.error {
   color: #f04124; }
 
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:840px)/";
-  width: 840px; }
+  font-family: "/only screen and (min-width:941px)/";
+  width: 941px; }
 
 .contain-to-grid {
   width: 100%;
@@ -2456,7 +2456,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 941px) {
   .top-bar {
     background: #333;
     overflow: visible; }
@@ -7272,5 +7272,11 @@ footer a {
 @media screen and (max-width: 720px) {
   nav h1 a {
     border-bottom: none; } }
+/*
+ * Smaller Screen
+ */
+@media screen and (max-width: 450px) {
+  footer h2 a {
+    font-size: 1.1rem; } }
 
 /*# sourceMappingURL=styles.css.map */
